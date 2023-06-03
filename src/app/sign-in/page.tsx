@@ -3,14 +3,20 @@
 
 import { signUserIn } from "../../utils/auth";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const router = useRouter();
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     await signUserIn(email, password);
+  };
+
+  const handleSignUp = () => {
+    router.push("/sign-up");
   };
 
   return (
@@ -31,6 +37,12 @@ export default function SignIn() {
         <button type="submit" className="bg-blue-500 text-white rounded-lg px-4 py-2 w-full">
           Sign In
         </button>
+        <div className="flex justify-center mt-2">
+          <span className="text-gray-600">Don't have an account?</span>
+          <button type="button" onClick={handleSignUp} className="text-blue-500 ml-1">
+            Sign Up
+          </button>
+        </div>
       </form>
     </div>
   );

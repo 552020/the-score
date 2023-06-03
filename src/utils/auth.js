@@ -1,20 +1,34 @@
 import { auth } from "./firebase";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+  getAuth,
+} from "firebase/auth";
 import { useEffect, useState } from "react";
 
 export const signUserUp = async (email, password) => {
   try {
-    await createUserWithEmailAndPassword(auth, email, password);
+    // await createUserWithEmailAndPassword(auth, email, password);
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+    console.log(userCredential);
+    return userCredential.user;
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };
 
 export const signUserIn = async (email, password) => {
   try {
-    await signInWithEmailAndPassword(auth, email, password);
+    // await signInWithEmailAndPassword(auth, email, password);
+    const userCredential = await signInWithEmailAndPassword(auth, email, password);
+    console.log(userCredential);
+    return userCredential.user;
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };
 

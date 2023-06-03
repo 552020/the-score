@@ -1,11 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import { useAuth } from "../../utils/auth";
+import { useRouter } from "next/navigation";
 
 export default function Dashboard() {
+  const user = useAuth();
+  const router = useRouter();
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [picture, setPicture] = useState("");
+
+  if (!user) {
+    router.push("/sign-in");
+    return null; // Optional: You can return a loading state or message before redirection.
+  }
 
   const handleNameChange = (e) => {
     setName(e.target.value);
