@@ -1,6 +1,7 @@
 // pages/signin.tsx
 "use client";
 import Header from "../components/Header";
+import NewHeader from "../components/NewHeader";
 import AuthForm from "../components/AuthForm";
 import { signUserIn, signUserOut, useAuth } from "../../utils/auth";
 import { useState } from "react";
@@ -31,6 +32,7 @@ export default function SignIn() {
   return (
     <div className="bg-white min-h-screen flex flex-col">
       <Header user={user} /> {/* Render the Header component */}
+      <NewHeader user={user} />
       <AuthForm mode="signIn" />
     </div>
   );

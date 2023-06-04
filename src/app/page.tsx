@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { User } from "firebase/auth";
 import { useAuth } from "../utils/auth";
 import Header from "./components/Header";
+import NewHeader from "./components/NewHeader";
 import { getFirestore, doc, getDoc, onSnapshot, updateDoc } from "firebase/firestore";
 
 export default function Home() {
@@ -53,7 +54,8 @@ export default function Home() {
     <div>
       <div>
         <div className="min-h-screen bg-gray-100">
-          <Header user={user} />
+          {/* <Header user={user} /> */}
+          <NewHeader user={user} />
           <div className="flex flex-col items-center justify-center space-y-4 mt-8">
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-white text-black text-center text-5xl rounded-lg px-4 py-16 w-full">{count}</div>
