@@ -15,7 +15,7 @@ export const signUserUp = async (email: string, password: string): Promise<User>
   try {
     // await createUserWithEmailAndPassword(auth, email, password);
     const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-    console.log(userCredential);
+    // console.log(userCredential);
     await sendEmailVerification(userCredential.user);
     return userCredential.user;
   } catch (error) {
@@ -30,7 +30,7 @@ export const signUserIn = async (email: string, password: string): Promise<User>
   try {
     // await signInWithEmailAndPassword(auth, email, password);
     const userCredential = await signInWithEmailAndPassword(auth, email, password);
-    console.log(userCredential);
+    // console.log(userCredential);
     const user = userCredential.user;
     // Check if a document for the user already exists
     const userDocRef = doc(db, "users", user.uid);
@@ -65,6 +65,7 @@ export const useAuth = () => {
 
   useEffect(() => {
     const removeAuthListener = onAuthStateChanged(auth, (currentUser) => {
+      console.log(currentUser);
       if (currentUser) {
         const isEmailVerified = currentUser.emailVerified;
         setUser(isEmailVerified ? currentUser : null);

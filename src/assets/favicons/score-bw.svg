@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: rgb(52, 93, 97); paint-order: stroke; stroke-width: 0px; fill-opacity: 0.67; fill: rgb(233, 233, 233);" transform="matrix(0.999994, -0.003323, -0.005492, 1.000024, 1.299394, -1.620204)" d="M 154.438 138.788 H 298.615 A 23.227 23.227 0 0 1 321.842 162.015 V 337.181 H 154.438 A 23.227 23.227 0 0 1 131.211 313.954 V 162.015 A 23.227 23.227 0 0 1 154.438 138.788 Z" bx:shape="rect 131.211 138.788 190.631 198.393 23.227 23.227 0 23.227 1@bd0e9942"/>
+  <circle style="fill: rgb(254, 254, 254); paint-order: stroke; stroke-width: 3px; stroke: rgba(0, 0, 0, 0.49);" cx="186.82" cy="167.372" r="18.997"/>
+  <circle style="fill: rgba(247, 33, 33, 0.6); stroke: rgba(0, 0, 0, 0.6);" cx="234.926" cy="237.986" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); paint-order: fill; stroke-miterlimit: 7; fill: rgb(223, 55, 206); stroke-width: 1.01003px;" cx="260.021" cy="167.897" r="16.537" transform="matrix(1.002751, 0, 0, 0.977393, 1.330259, 5.42179)"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(39, 226, 226);" cx="182.76" cy="206.804" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(231, 46, 234, 0.88);" cx="201.428" cy="237.218" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(0, 20, 243, 0.65);" cx="178.172" cy="236.983" r="9.263"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(239, 239, 31, 0.9);" cx="226.445" cy="168.795" r="16.537"/>
+  <circle style="fill: rgb(44, 244, 221); stroke: rgba(0, 0, 0, 0.49);" cx="264.508" cy="269.017" r="14.214"/>
+  <circle style="fill: rgba(239, 70, 3, 0.91); stroke: rgba(0, 0, 0, 0.74);" cx="264.948" cy="236.676" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(223, 55, 206, 0.43);" cx="261.822" cy="302.611" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(245, 245, 21);" cx="228.437" cy="302.256" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(45, 239, 31, 0.39);" cx="198.379" cy="302.674" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(231, 46, 234);" cx="175.874" cy="303.386" r="8.955"/>
+  <g>
+    <circle style="stroke: rgb(0, 0, 0);" cx="231.717" cy="520.019" r="100" transform="matrix(0.975, 0, 0, 0.965, 9.575927, -6.318332)"/>
+    <circle style="fill: rgb(254, 254, 254); paint-order: stroke; stroke-width: 3px; stroke: rgba(0, 0, 0, 0.49);" cx="199.5" cy="433.742" r="21.5"/>
+    <circle style="stroke: rgba(0, 0, 0, 0.6); fill: rgb(255, 255, 255);" cx="249.537" cy="501.853" r="14.214"/>
+    <circle style="stroke: rgb(0, 0, 0); paint-order: fill; stroke-miterlimit: 7; stroke-width: 1.01003px; fill: rgb(255, 255, 255);" cx="260.021" cy="167.897" r="16.537" transform="matrix(1.002751, 0, 0, 0.977393, 15.9412, 269.28894)"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="196.371" cy="474.671" r="14.205"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="221.039" cy="503.085" r="9.781"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="196.783" cy="501.85" r="9.263"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="240.5" cy="432.625" r="14.5"/>
+    <circle style="stroke: rgba(0, 0, 0, 0.49); fill: rgb(255, 255, 255);" cx="277.119" cy="531.884" r="14.214"/>
+    <circle style="stroke: rgba(0, 0, 0, 0.74); fill: rgb(255, 255, 255);" cx="276.559" cy="501.543" r="9.781"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="276.433" cy="563.478" r="14.214"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="244.048" cy="568.123" r="14.205"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="215.99" cy="569.541" r="9.781"/>
+    <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="193.485" cy="567.253" r="8.955"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(235, 243, 130);" cx="186.82" cy="167.372" r="18.997"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(247, 33, 33, 0.6);" cx="224.657" cy="166.634" r="14.214" transform="matrix(0.970798, 0, 0, 0.977399, 6.145316, 3.444905)"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(223, 55, 206, 0.56);" cx="260.021" cy="167.897" r="16.537" transform="matrix(1.002751, 0, 0, 0.977393, -0.669741, 3.42179)"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(39, 226, 226, 0.48);" cx="182.76" cy="206.804" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(231, 46, 234, 0.88);" cx="201.428" cy="237.218" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(0, 20, 243, 0.65);" cx="178.172" cy="236.983" r="9.263"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(45, 239, 31, 0.56);" cx="233.079" cy="236.882" r="16.537"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(44, 244, 221, 0.39);" cx="264.508" cy="269.017" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(239, 70, 3, 0.54);" cx="264.948" cy="236.676" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(223, 55, 206, 0.43);" cx="261.822" cy="302.611" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(247, 241, 75, 0.9);" cx="228.437" cy="302.256" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(45, 239, 31, 0.39);" cx="198.379" cy="302.674" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgba(247, 33, 33, 0.39);" cx="175.874" cy="303.386" r="6.59"/>
+</svg>

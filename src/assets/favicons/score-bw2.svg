@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle style="stroke: rgb(0, 0, 0);" cx="231.717" cy="520.019" r="100" transform="matrix(0.975, 0, 0, 0.965, -8.842901, -243.582245)"/>
+  <circle style="fill: rgb(254, 254, 254); paint-order: stroke; stroke-width: 3px; stroke: rgba(0, 0, 0, 0.49);" cx="181.081" cy="196.478" r="21.5"/>
+  <circle style="stroke: rgba(0, 0, 0, 0.6); fill: rgb(255, 255, 255);" cx="231.118" cy="264.589" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); paint-order: fill; stroke-miterlimit: 7; stroke-width: 1.01003px; fill: rgb(255, 255, 255);" cx="260.021" cy="167.897" r="16.537" transform="matrix(1.002751, 0, 0, 0.977393, -2.477621, 32.025047)"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="177.952" cy="237.407" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="202.62" cy="265.821" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="178.364" cy="264.586" r="9.263"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="222.081" cy="195.361" r="14.5"/>
+  <circle style="stroke: rgba(0, 0, 0, 0.49); fill: rgb(255, 255, 255);" cx="258.7" cy="294.62" r="14.214"/>
+  <circle style="stroke: rgba(0, 0, 0, 0.74); fill: rgb(255, 255, 255);" cx="258.14" cy="264.279" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="258.014" cy="326.214" r="14.214"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="225.629" cy="330.859" r="14.205"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="197.571" cy="332.277" r="9.781"/>
+  <circle style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" cx="175.066" cy="329.989" r="8.955"/>
+</svg>
