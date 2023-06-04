@@ -5,7 +5,7 @@ import { useAuth } from "../../utils/auth";
 import { useRouter } from "next/navigation";
 import Header from "../components/Header";
 
-export default function Dashboard() {
+export default function Settings() {
   const { user, loading } = useAuth();
   const router = useRouter();
   const [name, setName] = useState("");
@@ -49,7 +49,7 @@ export default function Dashboard() {
       <Header user={user} />
       <div className="min-h-screen bg-gray-100 py-8">
         <div className="max-w-md mx-auto bg-white shadow-md rounded-md p-6">
-          <h2 className="text-xl font-semibold mb-4">Dashboard</h2>
+          <h2 className="text-xl font-semibold mb-4">Settings</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="text-gray-700 font-medium">

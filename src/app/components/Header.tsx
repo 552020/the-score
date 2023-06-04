@@ -6,17 +6,17 @@ export default function Header({ user }: { user: User | null }) {
   const router = useRouter();
   return (
     <div>
-      <header className="bg-gray-200 py-2">
-        <nav className="container mx-auto flex flex-wrap items-start justify-between text-sm">
-          <div className="w-fit-content md:w-auto flex flex-col gap-2 mb-2 md:mb-0">
+      <header className="bg-slate-50 py-2">
+        <nav className=" container mx-auto  text-sm">
+          <div className=" w-full flex gap-2  md:mb-0 justify-between ">
             <button
               className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-3 py-1 w-fit-content"
               onClick={() => router.push("/")}
             >
-              Home
+              The score
             </button>
             {!user && (
-              <>
+              <div className="flex gap-4">
                 <button
                   className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-3 py-1 w-fit-content"
                   onClick={() => router.push("/sign-in")}
@@ -29,14 +29,14 @@ export default function Header({ user }: { user: User | null }) {
                 >
                   Sign Up
                 </button>
-              </>
+              </div>
             )}
             {user && (
               <button
                 className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-3 py-1 w-fit-content"
-                onClick={() => router.push("/dashboard")}
+                onClick={() => router.push("/settings")}
               >
-                Dashboard
+                Settings
               </button>
             )}
           </div>
