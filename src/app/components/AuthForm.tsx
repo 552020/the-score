@@ -13,7 +13,7 @@ const EmailVerificationScreen = () => {
           Thank you for signing up! Please check your email for a verification link to complete your registration.
         </p>
         <p className="text-lg mb-4">
-          If you didn't receive the email, please check your spam folder or request a new verification link.
+          If you didn&apos;t receive the email, please check your spam folder or request a new verification link.
         </p>
       </div>
     </div>
@@ -31,7 +31,7 @@ export default function AuthForm({ mode }: { mode: "signIn" | "signUp" }) {
 
   const isSignInMode = mode === "signIn";
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (password !== confirmPassword && !isSignInMode) {
       setFormStatus("Passwords do not match");
@@ -90,7 +90,8 @@ export default function AuthForm({ mode }: { mode: "signIn" | "signUp" }) {
             </form>
             {isSignInMode && (
               <div className="mt-4 text-center">
-                <p>Don't have an account?</p>
+                <p>Don&apos;t have an account?</p>
+
                 <button
                   className="bg-blue-500 text-white rounded-lg px-4 py-2 mt-2 w-full"
                   onClick={() => router.push("/sign-up")}

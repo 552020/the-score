@@ -25,20 +25,20 @@ export default function Settings() {
     return <p>Loading...</p>;
   }
 
-  const handleNameChange = (e) => {
+  const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
   };
 
-  const handleAgeChange = (e) => {
+  const handleAgeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setAge(e.target.value);
   };
 
-  const handlePictureChange = (e) => {
+  const handlePictureChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPicture(e.target.value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     // Perform the submission logic here
     // You can use the state values (name, age, picture) to send the data to your backend or perform any other actions
   };

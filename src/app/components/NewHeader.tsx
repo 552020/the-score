@@ -63,11 +63,7 @@ export default function NewHeader({ user }: { user: User | null }) {
                 <button onClick={handleAvatarClick} ref={avatarRef}>
                   <UserAvatar user={user} />
                 </button>
-                {isMenuOpen && (
-                  <div ref={menuRef}>
-                    <UserMenu user={user} />
-                  </div>
-                )}
+                {isMenuOpen && <UserMenu user={user} menuRef={menuRef} />}
               </>
             )}
           </div>
