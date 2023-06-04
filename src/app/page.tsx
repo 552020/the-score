@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { User } from "firebase/auth";
 import { useAuth } from "../utils/auth";
 import Header from "./components/Header";
-import NewHeader from "./components/NewHeader";
+import NewHeader from "./components/NewHeaderComments";
 import { getFirestore, doc, getDoc, onSnapshot, updateDoc } from "firebase/firestore";
 
 export default function Home() {

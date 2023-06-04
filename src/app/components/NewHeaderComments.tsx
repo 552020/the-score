@@ -9,19 +9,26 @@ export default function NewHeader({ user }: { user: User | null }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const avatarRef = useRef<HTMLButtonElement>(null);
-
+  // TODO: the menu doesnt close when you click on the avatar and the menu is opened
   const handleAvatarClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  //   const handleAvatarClick = () => {
+  //     if (isMenuOpen) {
+  //       setIsMenuOpen(false);
+  //     } else {
+  //       setIsMenuOpen(true);
+  //     }
+  //   };
+
+  //   const handleAvatarClick = () => {
+  //     setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
+  //   };
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target as Node) &&
-        avatarRef.current &&
-        !avatarRef.current.contains(event.target as Node)
-      ) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setIsMenuOpen(false);
       }
     };
@@ -30,7 +37,7 @@ export default function NewHeader({ user }: { user: User | null }) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [menuRef]);
 
   return (
     <div>
@@ -60,14 +67,10 @@ export default function NewHeader({ user }: { user: User | null }) {
               </div>
             ) : (
               <>
-                <button onClick={handleAvatarClick} ref={avatarRef}>
+                <button ref={avatarRef} onClick={handleAvatarClick}>
                   <UserAvatar user={user} />
                 </button>
-                {isMenuOpen && (
-                  <div ref={menuRef}>
-                    <UserMenu user={user} />
-                  </div>
-                )}
+                {isMenuOpen && <UserMenu user={user} menuRef={menuRef} />}
               </>
             )}
           </div>

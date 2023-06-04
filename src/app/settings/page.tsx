@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../utils/auth";
 import { useRouter } from "next/navigation";
-import Header from "../components/Header";
-
+import NewHeader from "../components/NewHeaderComments";
 export default function Settings() {
   const { user, loading } = useAuth();
   const router = useRouter();
@@ -46,7 +45,7 @@ export default function Settings() {
 
   return (
     <div>
-      <Header user={user} />
+      <NewHeader user={user} />
       <div className="min-h-screen bg-gray-100 py-8">
         <div className="max-w-md mx-auto bg-white shadow-md rounded-md p-6">
           <h2 className="text-xl font-semibold mb-4">Settings</h2>
